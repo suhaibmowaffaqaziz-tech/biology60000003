@@ -1,0 +1,117 @@
+﻿<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>منصة الشمس | حجم الخلية</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <h1>منصة الشمس التعليمية</h1>
+      <p class="dr-name">إعداد الدكتور صهيب موفق عزيز</p>
+      <p class="lesson-tag">الأحياء للسادس الإعدادي</p>
+      <p class="chapter-title">الفصل الأول | الدرس الثالث: حجم الخلية (Cell Size)</p>
+    </header>
+
+    <nav class="nav">
+      <button onclick="scrollToSection('intro')">المادة العلمية</button>
+      <button onclick="scrollToSection('reasoning')">التعاليل الوزارية</button>
+      <button onclick="scrollToSection('comparison')">المقارنات والأهمية</button>
+      <button onclick="scrollToSection('quiz-sec')">اختبر نفسك</button>
+    </nav>
+
+    <section id="intro" class="card">
+      <h2>1-3 حجم الخلية Cell Size</h2>
+      <p>تتباين الخلايا في الحجم، وعلى سبيل المثال يصل قطر <strong>بيضة الضفدع</strong> إلى (1 ملم)، وهي من الكبر بحيث يمكن أن تُرى بالعين المجردة.</p>
+      <p>ولكن معظم الخلايا تكون أصغر بكثير من (1 ملم)، فـ <strong>بيضة الإنسان</strong> على سبيل المثال لا يتجاوز قطرها (100 مايكرومتر)، وهناك من الخلايا ما يكون أقل من ذلك.</p>
+      <div class="highlight-box">
+        كما تمتلك الخلايا تخصصات معينة يراد منها زيادة الكفاءة في إنجاز الوظائف المختلفة.
+      </div>
+      <p style="margin-top:15px;">نحتاج إلى المجهر لنرى الخلايا والكائنات الحية المجهرية. الخلايا يمكن أن تُرى بالمجهر الضوئي، ولكن تفاصيل مكوناتها (مثل العضيات)، الفيروسات، والجزيئات العضوية تحتاج إلى استخدام <strong>المجهر الإلكتروني</strong>.</p>
+    </section>
+
+    <section id="reasoning" class="card">
+      <h2 style="color: #2980b9;">علل (أسئلة وزارية)</h2>
+      <div class="step">
+        <strong>1. علل: يمكن رؤية بيضة الضفدع بالعين المجردة، بينما لا يمكن رؤية بيضة الإنسان؟</strong>
+        <p>الجواب: لأن بيضة الضفدع كبيرة نسبياً، حيث يصل قطرها إلى (1 ملم)، بينما بيضة الإنسان أصغر بكثير، إذ لا يتجاوز قطرها (100 مايكرومتر).</p>
+      </div>
+      <div class="step">
+        <strong>2. علل: نحتاج إلى المجهر لرؤية الخلايا والكائنات الحية الدقيقة؟</strong>
+        <p>الجواب: لأن معظم الخلايا تكون أصغر من (1 ملم)، مما يجعلها غير مرئية بالعين المجردة.</p>
+      </div>
+      <div class="step">
+        <strong>3. علل: تُستخدم المجاهر الإلكترونية في دراسة تفاصيل مكونات الخلية والفيروسات؟</strong>
+        <p>الجواب: لأن عضيات الخلية الداخلية والفيروسات والجزيئات العضوية تكون صغيرة جداً، ولا يمكن رؤيتها بالمجهر الضوئي، مما يستدعي استخدام المجهر الإلكتروني الذي يمتلك قدرة تكبير أكبر بكثير.</p>
+      </div>
+    </section>
+
+    <section id="comparison" class="card">
+      <h2 style="color: #2980b9;">المقارنات والوظائف</h2>
+      
+      <h3>مقارنة بين بيضة الضفدع وبيضة الإنسان:</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>وجه المقارنة</th>
+            <th>بيضة الضفدع</th>
+            <th>بيضة الإنسان</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>القطر</td>
+            <td>1 ملم</td>
+            <td>100 مايكرومتر</td>
+          </tr>
+          <tr>
+            <td>الرؤية</td>
+            <td>يمكن رؤيتها بالعين المجردة</td>
+            <td>لا يمكن رؤيتها بالعين المجردة</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>ما أهمية / وظيفة كل من:</h3>
+      <ul class="q-list">
+        <li><strong>المجهر الضوئي:</strong> يُستخدم في رؤية الخلايا والكائنات الحية المجهرية بشكل عام.</li>
+        <li><strong>المجهر الإلكتروني:</strong> يُستخدم لمشاهدة تفاصيل مكونات الخلية الداخلية (العضيات)، الفيروسات، والجزيئات العضوية.</li>
+        <li><strong>التخصصات في الخلايا:</strong> تزيد من كفاءة الخلايا في إنجاز وظائفها المختلفة.</li>
+      </ul>
+    </section>
+
+    <section id="quiz-sec" class="card">
+      <h2 style="color: #2980b9;">اختبر نفسك</h2>
+      
+      <h3>املأ الفراغات التالية:</h3>
+      <ul class="q-list">
+        <li>يصل قطر بيضة الضفدع إلى حوالي <strong>(1 ملم)</strong> ويمكن رؤيتها بالعين المجردة.</li>
+        <li>تُستخدم <strong>(المجاهر الإلكترونية)</strong> لمشاهدة عضيات الخلية والفيروسات.</li>
+      </ul>
+
+      <h3>اختر الإجابة الصحيحة:</h3>
+      <div class="quiz">
+        <p>1. يبلغ قطر بيضة الإنسان حوالي:</p>
+        <button onclick="checkAnswer(this,false)">1 ملم</button>
+        <button onclick="checkAnswer(this,true)">100 مايكرومتر</button>
+      </div>
+
+      <div class="quiz">
+        <p>2. تحتاج عضيات الخلية إلى مجهر من نوع خاص لمشاهدتها:</p>
+        <button onclick="checkAnswer(this,true)">المجهر الإلكتروني</button>
+        <button onclick="checkAnswer(this,false)">المجهر الضوئي</button>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>منصة الشمس التعليمية © 2026</p>
+      <p>الدكتور صهيب موفق عزيز</p>
+      <a href="https://wa.me/9647700425408" class="whatsapp">للتواصل عبر واتساب: 07700425408</a>
+    </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
